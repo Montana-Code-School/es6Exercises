@@ -12,3 +12,5 @@ function barf(callback){
 function vomit(){
   console.log("vomit called");
 }
+
+//Last, run callback() more than one time within the barf function. That might help elucidate what's happening
