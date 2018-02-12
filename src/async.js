@@ -1,10 +1,6 @@
 //This might help some understand asynchronous functions. While "asyncSim" is
 //not asynchronous, the callback one passes into it is. 
-
-//this is like the jquery $.get() function - remember when we passed a function
-//into it, and that function got executed when the our express server responded with
-//our chair data? This is a model of what happened and in this case, it takes 2 seconds
-//to pass the data back. Using arrow notation, pass a function into "asyncSim"
+//Using arrow notation, pass a function into "asyncSim"
 //to log "this is all the data, do whatever you want to it"
 
 function asyncSim(callback) {
